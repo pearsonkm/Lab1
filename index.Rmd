@@ -1,0 +1,40 @@
+
+# Kimberly Pearson, MPA Candidate
+
+Hi! My name is Kim Pearson and I am an MPA candidate at the University of Washington. I graduate this June with a focus in policy analysis. I studied Sustainability (Economics) and Spanish Literature and Culture at Arizona State University from 2008-2012. I am originally from Phoenix, AZ, which was a great place to learn about sustainability challenges and successes at the local level, especially in regards to climate, transportation, urban planning, and energy. I also spent time learning about social policy issues, such as immigration, civil rights, and labor. I came to the Evans School to learn quantitative and qualitative data analysis skills that can assist with social and environmental policy decision making at the local level. 
+
+## My Home Department
+
+[Evans School of Public Policy & Governance](https://evans.uw.edu)
+
+## Interest In The Course And What Scares You About It
+
+I am very interested in this course because I would like to assist decision makers and analysts in understanding complex policy issues in areas like transportation, the environment, and social welfare. I took Visual Analytics with Professor Magallanes and really enjoyed learning the power of R to create helpful and impactful data graphics. I aim to apply these skills at the local government level, helping both internal and external stakeholders better understand and interact with key policy issues. 
+
+In terms of what scares me about the course, I want to make sure that I practice using R enough so that I can easily remember how to undertake key functionalities. I want to avoid falling out of practice from one week to the next. 
+
+## Three Things About Me
+
+1. I have lived in several different places since undergrad at Arizona State University: Boulder, Colorado; Bocas del Toro, Panama; and now Seattle, WA. 
+2. I love to hike and go outside, especially to see all the moss, mushrooms, and flowers here in the Pacific Northwest! I am trying to learn how to identify different mushroom species. 
+3. I am an avid dancer, having learned salsa, bachata, and merengue. In Seattle, I am starting to learn Norwegian dancing, which doesn't come as easily, but is incredibly rewarding once you get the steps right. 
+
+## Favorite Quote
+
+> "If I can't dance, I don't want to be in your revolution."
+>
+> - Emma Goldman 
+
+## Display Some Data
+
+--> Using a pre-loaded package, either print summary statistics or some sort of graph <--
+
+```{r, ech=F }
+link='https://github.com/EvansDataScience/VisualAnalytics_2_tabularData/raw/master/data/eduwa.rda'
+load(file=url(link))
+data(eduwa)
+plot(eduwa$Low.Grade, eduwa$Free.Lunch)
+```
+
+
+
